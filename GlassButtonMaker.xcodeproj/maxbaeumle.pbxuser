@@ -1,0 +1,132 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* GlassButtonMakerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1598, 736}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 367}";
+		};
+	};
+	1D3623250D0F684500981E51 /* GlassButtonMakerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1598, 736}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 541}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* GlassButtonMaker */ = {
+		activeExec = 0;
+		executables = (
+			3649C38C136845CF00380F72 /* GlassButtonMaker */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* GlassButtonMakerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1598, 736}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 428}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* GlassButtonMakerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1598, 1131}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2409}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3649C38C136845CF00380F72 /* GlassButtonMaker */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GlassButtonMaker */;
+		codeSenseManager = 3649C3A6136845EF00380F72 /* Code sense */;
+		executables = (
+			3649C38C136845CF00380F72 /* GlassButtonMaker */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 325607553;
+			PBXWorkspaceStateSaveDate = 325607553;
+		};
+		sourceControlManager = 3649C3A5136845EF00380F72 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1598, 736}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 228}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* GlassButtonMaker_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1598, 736}}";
+			sepNavSelRange = "{88, 0}";
+			sepNavVisRange = "{0, 88}";
+		};
+	};
+	3649C38C136845CF00380F72 /* GlassButtonMaker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GlassButtonMaker;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3649C3A5136845EF00380F72 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3649C3A6136845EF00380F72 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
