@@ -45,6 +45,9 @@
 		CGRect frame = [theButton frame];
 		[theButton setFrame:CGRectMake(frame.origin.x * 2.0, frame.origin.y * 2.0, frame.size.width * 2.0, frame.size.height * 2.0)];
 		
+		UIFont *font = [[theButton titleLabel] font];
+		[[theButton titleLabel] setFont:[UIFont systemFontOfSize:[[[theButton titleLabel] font] pointSize] * 2.0]];
+		
 		UIGraphicsBeginImageContext([theButton frame].size);
 		CGContextRef theContext = UIGraphicsGetCurrentContext();
 		[[theButton layer] renderInContext:theContext];
@@ -56,6 +59,7 @@
 		UIGraphicsEndImageContext();
 		
 		[theButton setFrame:frame];
+		[[theButton titleLabel] setFont:font];
 	} else {
 		NSString *path = [NSString stringWithFormat:@"/Users/%@/Desktop/button.png", NSUserName()];
 		
